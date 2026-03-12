@@ -1,0 +1,59 @@
+body{
+font-family:Arial;
+background:#fafafa;
+margin:0;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:15px;
+background:white;
+border-bottom:1px solid #ddd;
+}
+
+.upload{
+padding:20px;
+background:white;
+}
+
+.post{
+width:400px;
+margin:20px auto;
+background:white;
+padding:10px;
+border:1px solid #ddd;
+}
+
+.post img{
+width:100%;
+}
+
+.loginBox{
+width:300px;
+margin:100px auto;
+text-align:center;
+}
+
+.loginBox input{
+display:block;
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.chatContainer{
+width:400px;
+margin:auto;
+}
+
+#messages{
+height:400px;
+overflow:auto;
+border:1px solid #ccc;
+padding:10px;
+}
+
+.message{
+margin:5px 0;
+}
