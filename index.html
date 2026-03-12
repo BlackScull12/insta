@@ -2,8 +2,10 @@
 <html>
 
 <head>
+
 <title>Instagram</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -12,28 +14,31 @@
 
 <h2>Instagram</h2>
 
-<a href="chat.html">Chat</a>
+<div>
 
-<button onclick="logout()">Logout</button>
+<a href="profile.html">Profile</a>
+<a href="chat.html">Messages</a>
+<a href="explore.html">Explore</a>
+
+</div>
 
 </header>
 
 
-<div class="upload">
+<div class="createPost">
 
 <input type="file" id="image">
 
-<input id="caption" placeholder="Caption">
+<input id="caption" placeholder="caption">
 
-<button onclick="post()">Post</button>
+<button onclick="createPost()">Post</button>
 
 </div>
 
-
 <div id="feed"></div>
 
-
-<script type="module" src="app.js"></script>
+<script type="module" src="js/post.js"></script>
+<script type="module" src="js/feed.js"></script>
 
 </body>
 </html>
